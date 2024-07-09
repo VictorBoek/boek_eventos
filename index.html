@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <div class="main"> <!-- Area total da página -->
+        <div class="admin_area"> <!-- Lado esquerdo: onde vai ficar a agenda -->
+            <div class="schedule">
+                <img src="agenda_canto08Jul.png" class="schedule_img" alt="agenda">
+            </div>
+        </div>
+        <div class="user_area"> <!-- Área onde o usuário vai inputar os nomes para lista -->
+                <div class="card_list"> <!-- card que vai agrupar os inputs -->
+                    <h1>Nomes na Lista!</h1>
+                    <div class="user_field"> <!-- Input do nome de quem está enviando a lista-->
+                        <label for="name">Nome Completo</label>
+                        <input type="text" name="name" placeholder="Insira seu Nome">
+                    </div>
+                    <div class="user_field"> <!-- Input dos nomes adicionais-->
+                        <label for="guests">Convidados</label>
+                        <input type="text" name="guests" placeholder="Insira o nome de seus convidados">
+                    </div>
+                    <button class="btn_send">Enviar Lista</button> <!-- Botão de enviar os nome-->
+                </div>
+        </div>
+    </div>
+</body>
+</html>
