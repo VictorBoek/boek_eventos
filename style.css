@@ -48,7 +48,6 @@ body{
 .card_list > h1 {
     color: #ffffff;
     font-weight:  600;
-    font-size: 1em;
     margin:  5px;
 }
 
@@ -115,4 +114,28 @@ body{
     border-radius: 20px;
     width: 50%;
     box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        flex-direction: column;
+    }
+    .user_area{
+        width: 100%;
+        height: auto;
+    }
+
+    .card_list > h1{
+        display: none;
+    }
+
+    .admin_area{
+        width: 100%;
+        height: auto;
+    }
+    
+    .schedule{
+        align-items: ;
+        justify-content:initial;
+    }
 }
