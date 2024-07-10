@@ -48,6 +48,7 @@ body{
 .card_list > h1 {
     color: #ffffff;
     font-weight:  600;
+    font-size: 1em;
     margin:  5px;
 }
 
